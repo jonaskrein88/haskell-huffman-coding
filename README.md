@@ -6,8 +6,9 @@ Haskell implementation of [Huffman coding](https://en.wikipedia.org/wiki/Huffman
 ## usage
 
 ```Haskell
--- encode and decode a string
+import Huffman
 
+-- encode and decode a string
 main :: IO ()
 main = case encode str of
     Nothing               -> putStrLn "Huffman Tree is empty"
